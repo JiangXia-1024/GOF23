@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1e53b4-107d-4970-85f1-646bd3a293c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/BYD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/FactoryProduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/HuaWei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/XiaoMi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/FactoryMethod/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/FactoryMethod/AbstractProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/FactoryMethod/ConcreteFactory1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/FactoryMethod/ConcreteFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/FactoryMethod/ConcreteProduct1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/FactoryMethod/ConcreteProduct2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/FactoryMethod/FactoryMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/SimpleFactory/ConcreteProduct1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/SimpleFactory/ConcreteProduct2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/SimpleFactory/Factory1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/SimpleFactory/Product1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/Factory/SimpleFactory/SimpleFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/AbstractCarBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/BuildPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/CarDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/CarProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,11 +23,11 @@
       <file leaf-file-name="Audi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/Audi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="198">
               <caret line="10" column="32" selection-end-line="13" />
               <folding>
                 <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,7 +36,7 @@
       <file leaf-file-name="BYD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/BYD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="198">
               <caret line="10" column="33" selection-end-line="13" />
               <folding>
                 <element signature="e#185#186#0" expanded="true" />
@@ -63,24 +46,115 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractFactoryTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractFactoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/AbstractFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HuaWei.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/HuaWei.java">
+      <file leaf-file-name="AbstractCarBuild.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/AbstractCarBuild.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="30" selection-end-line="13" />
+            <state relative-caret-position="242">
+              <caret line="11" column="23" lean-forward="true" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteCarBuild1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="7" column="30" selection-end-line="35" />
               <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteCarBuild2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="31" column="23" selection-end-line="34" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarDirector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/CarDirector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="13" column="43" lean-forward="true" selection-end-line="31" />
+              <folding>
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/CarProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="33" lean-forward="true" selection-end-line="49" />
+              <folding>
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildPatternTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/BuildPatternTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="41" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -90,59 +164,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="10" column="30" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/CarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="25" column="26" selection-end-line="30" />
-              <folding>
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactoryProduce.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/FactoryProduce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="44" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComputerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/ComputerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="13" column="55" selection-end-line="26" />
-              <folding>
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/Computer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="20" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="20" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -202,6 +223,15 @@
         <option value="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/CarFactory.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/FactoryProduce.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/AbstractCar.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild1.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild2.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/CarDirector.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/BuildPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/CarProduct.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/AbstractCarBuild.java" />
       </list>
     </option>
   </component>
@@ -212,10 +242,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="930" />
-    <option name="y" value="43" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -225,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -257,22 +288,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jiangxia" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOF23" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GOF23" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jiangxia" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="BuilderPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -298,13 +319,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryTest">
+  <component name="RunManager" selected="Application.BuildPatternTest">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiangxia.Factory.AbstractFactory.AbstractFactoryTest" />
       <module name="GOF23" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiangxia.Factory.AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BuildPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxia.BuilderPattern.BuildPatternTest" />
+      <module name="GOF23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangxia.BuilderPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,16 +356,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiangxia.Factory.FactoryMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxia.Prototype.PrototypeTest" />
-      <module name="GOF23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiangxia.Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,19 +386,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.PrototypeTest" />
       <item itemvalue="Application.DeepCloneTest" />
       <item itemvalue="Application.SimpleFactoryTest" />
       <item itemvalue="Application.FactoryMethodTest" />
       <item itemvalue="Application.AbstractFactoryTest" />
+      <item itemvalue="Application.BuildPatternTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildPatternTest" />
         <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.FactoryMethodTest" />
         <item itemvalue="Application.SimpleFactoryTest" />
         <item itemvalue="Application.DeepCloneTest" />
-        <item itemvalue="Application.PrototypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -402,15 +423,17 @@
       <workItem from="1635038206415" duration="7213000" />
       <workItem from="1635254860005" duration="2304000" />
       <workItem from="1635337895754" duration="4116000" />
+      <workItem from="1635429304787" duration="920000" />
+      <workItem from="1635512742596" duration="610000" />
+      <workItem from="1635518408297" duration="2388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25753000" />
+    <option name="totallyTimeSpent" value="29671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -422,11 +445,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31733915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46892038" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -454,48 +477,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/singleton/SingletonDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/singleton/SingletonDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/singleton/SingletonDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/singleton/SingletonDemo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/singleton/SingletonDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/singleton/SingletonDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -613,10 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="23" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,23 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="25" selection-end-line="66" />
-          <folding>
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,10 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="35" selection-end-line="13" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,10 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="35" selection-end-line="13" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,23 +725,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/ComputerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="286">
           <caret line="13" column="55" selection-end-line="26" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/CarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="506">
           <caret line="25" column="26" selection-end-line="30" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,7 +753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/HuaWei.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="198">
           <caret line="10" column="30" selection-end-line="13" />
           <folding>
             <element signature="e#193#194#0" expanded="true" />
@@ -827,18 +771,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/Audi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="198">
           <caret line="10" column="32" selection-end-line="13" />
           <folding>
             <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/BYD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="198">
           <caret line="10" column="33" selection-end-line="13" />
           <folding>
             <element signature="e#185#186#0" expanded="true" />
@@ -850,7 +794,99 @@
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Factory/AbstractFactory/AbstractFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/AbstractCarBuild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="23" lean-forward="true" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="7" column="30" selection-end-line="35" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/ConcreteCarBuild2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="23" selection-end-line="34" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/CarDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="13" column="43" lean-forward="true" selection-end-line="31" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/CarProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="33" lean-forward="true" selection-end-line="49" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/BuildPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="41" selection-end-line="28" />
         </state>
       </provider>
     </entry>
