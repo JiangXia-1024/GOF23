@@ -26,3 +26,7 @@ https://mp.weixin.qq.com/s?__biz=MzUyNTgzNDc3MQ==&mid=2247491631&idx=1&sn=caf66a
 6、设配器模式
 
 https://mp.weixin.qq.com/s?__biz=MzUyNTgzNDc3MQ==&mid=2247491738&idx=1&sn=1bf9d4b91589bf6e840c328260ccdf39&chksm=fa1aafe6cd6d26f05aabbe6bb2ac92f5f1cbc9ad79eb0a4e87dd0d2ce2697b3d7c027c65c317&token=9469939&lang=zh_CN#rd
+
+7、代理模式
+
+https://mp.weixin.qq.com/s?__biz=MzUyNTgzNDc3MQ==&mid=2247491773&idx=1&sn=4868180e1c388bb377bd8745b4f56dbd&chksm=fa1aafc1cd6d26d7a63edf8ae26e25dfbfde61bbd89e7632f31f6552b86eb50acb2df9dd1d92&token=9469939&lang=zh_CN#rd
