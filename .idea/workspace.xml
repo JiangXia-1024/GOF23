@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1e53b4-107d-4970-85f1-646bd3a293c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/ConcreteClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/TemplateMethodPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/ConcreteStrategy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/ConcreteStrategy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/StrategyPatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,40 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Mediator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MediatorPattern/Mediator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteMediator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MediatorPattern/ConcreteMediator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="29" column="1" selection-start-line="10" selection-end-line="29" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteColleague1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MediatorPattern/ConcreteColleague1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ConcreteColleague2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MediatorPattern/ConcreteColleague2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,14 +44,8 @@
       <file leaf-file-name="AbstractClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/AbstractClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="418">
               <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding>
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -95,35 +57,76 @@
               <caret line="7" column="26" selection-end-line="13" />
               <folding>
                 <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemplateMethodPatternTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TemplateMethodPatternTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/TemplateMethodPatternTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="31" selection-end-line="15" />
+            <state relative-caret-position="198">
+              <caret line="9" column="58" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Colleague.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MediatorPattern/Colleague.java">
+      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="1" />
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeepClonePrototypeDemo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/Prototype/DeepClonePrototypeDemo2.java">
+      <file leaf-file-name="ConcreteStrategy1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/ConcreteStrategy1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategyPatternTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/StrategyPatternTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteStrategy2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/ConcreteStrategy2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,12 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/jingtaiProxy/FangDong.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/jingtaiProxy/FangKe.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/jingtaiProxy/ZhongJie.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/jingtaiProxy/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/DongtaiProxy.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/Dongtai/UserHandler.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/Dongtai/Test.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/DecoratorPattern/Phone.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/DecoratorPattern/OldPhone.java" />
@@ -195,6 +192,12 @@
         <option value="$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/AbstractClass.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/ConcreteClass.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/TemplateMethodPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/StrategyPattern.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/ConcreteStrategy1.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/Context.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/StrategyPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/ConcreteStrategy2.java" />
       </list>
     </option>
   </component>
@@ -204,7 +207,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -218,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,14 +253,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jiangxia" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateMethodPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="StrategyPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -282,17 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TemplateMethodPatternTest">
-    <configuration name="CompositePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxia.CompositePattern.CompositePatternTest" />
-      <module name="GOF23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiangxia.CompositePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.StrategyPatternTest">
     <configuration name="FlyWeigthTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiangxia.FlyWeightPattern.FlyWeigthTest" />
       <module name="GOF23" />
@@ -309,6 +302,16 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiangxia.MediatorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StrategyPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxia.StrategyPattern.StrategyPatternTest" />
+      <module name="GOF23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangxia.StrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,19 +352,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.CompositePatternTest" />
       <item itemvalue="Application.FlyWeigthTest" />
       <item itemvalue="Application.VisitorPatternTest" />
       <item itemvalue="Application.MediatorPatternTest" />
       <item itemvalue="Application.TemplateMethodPatternTest" />
+      <item itemvalue="Application.StrategyPatternTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPatternTest" />
         <item itemvalue="Application.TemplateMethodPatternTest" />
         <item itemvalue="Application.MediatorPatternTest" />
         <item itemvalue="Application.VisitorPatternTest" />
         <item itemvalue="Application.FlyWeigthTest" />
-        <item itemvalue="Application.CompositePatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -399,14 +402,15 @@
       <workItem from="1637418046834" duration="1870000" />
       <workItem from="1637487217933" duration="2792000" />
       <workItem from="1637581030116" duration="1493000" />
+      <workItem from="1637670323045" duration="3682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56882000" />
+    <option name="totallyTimeSpent" value="60564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -419,11 +423,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43838605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43838605" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -451,41 +455,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/jingtaiProxy/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/Dongtai/proxyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ProxyPattern/Dongtai/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/DecoratorPattern/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/DecoratorPattern/NewPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/DecoratorPattern/OldPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -581,14 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,12 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="10" selection-start-line="10" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,14 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/AbstractClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="418">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,15 +780,64 @@
           <caret line="7" column="26" selection-end-line="13" />
           <folding>
             <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/TemplateMethodPattern/TemplateMethodPatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="31" selection-end-line="15" />
+        <state relative-caret-position="198">
+          <caret line="9" column="58" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/ConcreteStrategy1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/StrategyPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StrategyPattern/ConcreteStrategy2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
