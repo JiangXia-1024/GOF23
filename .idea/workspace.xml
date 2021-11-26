@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1e53b4-107d-4970-85f1-646bd3a293c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StatePattern/ConcreteState1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StatePattern/ConcreteState2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StatePattern/ConcreteState3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StatePattern/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StatePattern/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/StatePattern/StatePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ChainOfResponsibilityPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ConcreteHandler1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ConcreteHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF23/com/jiangxia/MementoPattern/MementoPatternTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOF23/com/jiangxia/MementoPattern/MementoPatternTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,33 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Originator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MementoPattern/Originator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="28" selection-start-line="7" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Caretaker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MementoPattern/Caretaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MementoPatternTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MementoPattern/MementoPatternTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" selection-start-line="9" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StatePattern/State.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,7 +34,7 @@
               <caret line="7" selection-start-line="7" selection-end-line="13" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,27 +47,59 @@
               <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StatePattern/Context.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="12" column="42" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="7" selection-end-line="20" selection-end-column="1" />
               <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteHandler1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ConcreteHandler1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="7" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteHandler2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ConcreteHandler2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="21" lean-forward="true" selection-start-line="7" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChainOfResponsibilityPatternTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ChainOfResponsibilityPatternTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,21 +116,12 @@
       <file leaf-file-name="ConcreteState3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StatePattern/ConcreteState3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
+            <state relative-caret-position="594">
               <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Memento.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/MementoPattern/Memento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" selection-start-line="7" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -149,10 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jiangxia/FacadePattern/AllPerson.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/FacadePattern/PersonFace.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/FacadePattern/PersonFacade.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/FacadePattern/FacedePatternTest.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/BridgePattern/Abstartion.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/BridgePattern/Implementor.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/BridgePattern/ConcreteImplementorA.java" />
@@ -200,6 +189,10 @@
         <option value="$PROJECT_DIR$/src/com/jiangxia/StatePattern/StatePatternTest.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/StatePattern/Context.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/StatePattern/ConcreteState3.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/Handler.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ConcreteHandler1.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ConcreteHandler2.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ChainOfResponsibilityPatternTest.java" />
       </list>
     </option>
   </component>
@@ -209,7 +202,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -223,8 +216,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,13 +249,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jiangxia" type="462c0819:PsiDirectoryNode" />
-              <item name="StatePattern" type="462c0819:PsiDirectoryNode" />
+              <item name="ChainOfResponsibilityPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,13 +280,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StatePatternTest">
-    <configuration name="MediatorPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxia.MediatorPattern.MediatorPatternTest" />
+  <component name="RunManager" selected="Application.ChainOfResponsibilityPatternTest">
+    <configuration name="ChainOfResponsibilityPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxia.ChainOfResponsibilityPattern.ChainOfResponsibilityPatternTest" />
       <module name="GOF23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangxia.MediatorPattern.*" />
+          <option name="PATTERN" value="com.jiangxia.ChainOfResponsibilityPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,19 +347,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.MediatorPatternTest" />
       <item itemvalue="Application.TemplateMethodPatternTest" />
       <item itemvalue="Application.StrategyPatternTest" />
       <item itemvalue="Application.MementoPatternTest" />
       <item itemvalue="Application.StatePatternTest" />
+      <item itemvalue="Application.ChainOfResponsibilityPatternTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChainOfResponsibilityPatternTest" />
         <item itemvalue="Application.StatePatternTest" />
         <item itemvalue="Application.MementoPatternTest" />
         <item itemvalue="Application.StrategyPatternTest" />
         <item itemvalue="Application.TemplateMethodPatternTest" />
-        <item itemvalue="Application.MediatorPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -407,14 +400,15 @@
       <workItem from="1637670323045" duration="3682000" />
       <workItem from="1637755734243" duration="2101000" />
       <workItem from="1637843438184" duration="2290000" />
+      <workItem from="1637930119847" duration="1757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64955000" />
+    <option name="totallyTimeSpent" value="66712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -427,11 +421,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43838605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43838605" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -459,34 +453,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BridgePattern/Abstraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BridgePattern/RefinedAbstraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BridgePattern/BridgePatternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CompositePattern/FolderComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CompositePattern/FileLeaf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -792,7 +758,7 @@
           <caret line="7" selection-start-line="7" selection-end-line="13" />
           <folding>
             <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -803,7 +769,7 @@
           <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/StatePattern/ConcreteState3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
+        <state relative-caret-position="594">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="e#271#272#0" expanded="true" />
@@ -837,16 +803,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="7" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ConcreteHandler1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="7" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ConcreteHandler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" lean-forward="true" selection-start-line="7" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/ChainOfResponsibilityPattern/ChainOfResponsibilityPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
