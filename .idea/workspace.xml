@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c1e53b4-107d-4970-85f1-646bd3a293c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/AbstractExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/InterpreterPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/NonterminalExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/TerminalExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5c1e53b4-107d-4970-85f1-646bd3a293c7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -251,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638103369620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638104062142" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootWorkSpace" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -401,15 +394,15 @@
       <workItem from="1637944195485" duration="330000" />
       <workItem from="1638005515682" duration="2520000" />
       <workItem from="1638019165117" duration="1422000" />
-      <workItem from="1638099296136" duration="3231000" />
+      <workItem from="1638099296136" duration="3829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74215000" />
+    <option name="totallyTimeSpent" value="74813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
