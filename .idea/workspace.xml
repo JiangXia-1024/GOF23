@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c1e53b4-107d-4970-85f1-646bd3a293c7" name="Default" comment="" />
+    <list default="true" id="5c1e53b4-107d-4970-85f1-646bd3a293c7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/CommandPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/ConcreteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计模式.pdf" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,16 +20,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/IteratorPattern/Iterator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/InterpreterPatternTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/AbstractExpression.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Command.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" selection-start-line="7" selection-end-line="10" />
@@ -30,45 +38,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/TerminalExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="10" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#210#218#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/NonterminalExpression.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/ConcreteCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="21" />
+              <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/Context.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Invoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/InterpreterPatternTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/CommandPatternTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+              <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -132,11 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jiangxia/FlyWeightPattern/ConcreteFlyweight.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/FlyWeightPattern/FlyweightFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/FlyWeightPattern/FlyWeigth.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/FlyWeightPattern/FlyWeigthTest.java" />
-        <option value="$PROJECT_DIR$/src/com/jiangxia/VisitorPattern/VisitorPatternTest.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/VisitorPattern/Visitor.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/VisitorPattern/Element.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/VisitorPattern/ConcreteElement1.java" />
@@ -183,10 +194,15 @@
         <option value="$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/NonterminalExpression.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/InterpreterPatternTest.java" />
         <option value="$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/Context.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Command.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Receiver.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/ConcreteCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Invoker.java" />
+        <option value="$PROJECT_DIR$/src/com/jiangxia/CommandPattern/CommandPatternTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -200,8 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,18 +247,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jiangxia" type="462c0819:PsiDirectoryNode" />
-              <item name="InterpreterPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="CommandPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638104062142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638197314550" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootWorkSpace" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -268,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterpreterPatternTest">
+  <component name="RunManager" selected="Application.CommandPatternTest">
     <configuration name="ChainOfResponsibilityPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="F:/java/jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -277,6 +293,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiangxia.ChainOfResponsibilityPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxia.CommandPattern.CommandPatternTest" />
+      <module name="GOF23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangxia.CommandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,33 +352,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxia.StatePattern.StatePatternTest" />
-      <module name="GOF23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiangxia.StatePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StatePatternTest" />
       <item itemvalue="Application.ChainOfResponsibilityPatternTest" />
       <item itemvalue="Application.IteratorTest" />
       <item itemvalue="Application.IteratorPatternTest" />
       <item itemvalue="Application.InterpreterPatternTest" />
+      <item itemvalue="Application.CommandPatternTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandPatternTest" />
         <item itemvalue="Application.InterpreterPatternTest" />
         <item itemvalue="Application.IteratorPatternTest" />
         <item itemvalue="Application.IteratorTest" />
         <item itemvalue="Application.ChainOfResponsibilityPatternTest" />
-        <item itemvalue="Application.StatePatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -395,17 +411,17 @@
       <workItem from="1638005515682" duration="2520000" />
       <workItem from="1638019165117" duration="1422000" />
       <workItem from="1638099296136" duration="3829000" />
+      <workItem from="1638195126902" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74813000" />
+    <option name="totallyTimeSpent" value="76208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14392324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,7 +430,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20390455" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36008677" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3217012" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,41 +457,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/VisitorPattern/ConcreteVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/VisitorPattern/ObjectStruture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/VisitorPattern/VisitorPatternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/BuilderPattern/BuildPatternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CompositePattern/CompositePatternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="57" selection-start-line="7" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/DecoratorPattern/ConcreteDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -760,6 +741,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/IteratorPattern/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/AbstractExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/TerminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" column="1" selection-start-line="10" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/NonterminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiangxia/IteratorPattern/IteratorPatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -795,53 +814,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/IteratorPattern/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/InterpreterPatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/AbstractExpression.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" selection-start-line="7" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/TerminalExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="10" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#210#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/NonterminalExpression.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/ConcreteCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="21" />
+          <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="56">
+          <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/InterpreterPattern/InterpreterPatternTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jiangxia/CommandPattern/CommandPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
